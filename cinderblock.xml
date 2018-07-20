@@ -7,50 +7,50 @@
 	license="BSD"
 	summary="OpenCV (v3) computer vision libraries"
 	git="git://github.com/cinder/Cinder-OpenCV.git"
-	version="3.0.0"
+	version="3.4.2"
 	libraryUrl="http://opencv.org/"
 	>
 	<header>include/CinderOpenCV.h</header>
 	<includePath>include</includePath>
 	<platform compiler="vc2015">
 		<platform config="Debug">
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_calib3d300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_core300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_features2d300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_flann300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_hal300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_imgproc300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ml300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_objdetect300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_photo300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_shape300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_stitching300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_superres300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ts300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_video300d.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_videostab300d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_calib3d342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_core342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_features2d342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_flann342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_hal342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_imgproc342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ml342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_objdetect342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_photo342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_shape342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_stitching342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_superres342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ts342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_video342d.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_videostab342d.lib</staticLibrary>
 			<staticLibrary>lib/vc2015/$(PlatformTarget)/ippicvmt.lib</staticLibrary>
 		</platform>
 		<platform config="release">
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_calib3d300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_core300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_features2d300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_flann300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_hal300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_imgproc300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ml300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_objdetect300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_photo300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_shape300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_stitching300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_superres300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ts300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_video300.lib</staticLibrary>
-			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_videostab300.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_calib3d342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_core342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_features2d342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_flann342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_hal342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_imgproc342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ml342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_objdetect342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_photo342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_shape342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_stitching342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_superres342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_ts342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_video342.lib</staticLibrary>
+			<staticLibrary>lib/vc2015/$(PlatformTarget)/opencv_videostab342.lib</staticLibrary>
 			<staticLibrary>lib/vc2015/$(PlatformTarget)/ippicvmt.lib</staticLibrary>
 		</platform>
 	</platform>
-	<platform os="macosx">
+	<!-- platform os="macosx">
 			<staticLibrary>lib/macosx/libopencv_calib3d.a</staticLibrary>
 			<staticLibrary>lib/macosx/libopencv_core.a</staticLibrary>
 			<staticLibrary>lib/macosx/libopencv_features2d.a</staticLibrary>
@@ -70,13 +70,13 @@
 			<staticLibrary>lib/macosx/libippicv.a</staticLibrary>
 			<staticLibrary absolute="true">-lz</staticLibrary>
 			<framework sdk="true">OpenCL.framework</framework>		
-	</platform>
-	<platform os="ios" sdk="simulator">
+	</platform -->
+	<!-- platform os="ios" sdk="simulator">
 			<staticLibrary>lib/ios-sim/libopencv.a</staticLibrary>
-	</platform>
-	<platform os="ios" sdk="device">
+	</platform -->
+	<!-- platform os="ios" sdk="device">
 			<staticLibrary>lib/ios/libopencv.a</staticLibrary>
-	</platform>
+	</platform -->
 </block>
 <template>templates/Basic OpenCV/template.xml</template>
 </cinder>
