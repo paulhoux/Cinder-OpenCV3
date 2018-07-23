@@ -146,6 +146,10 @@ public:
     operator _Tp* ();
     //! returns read-only pointer to the real buffer, stack-allocated or heap-allocated
     operator const _Tp* () const;
+    //! returns pointer to the real buffer, stack-allocated or heap-allocated
+    _Tp* data() { return ptr; };
+    //! returns read-only pointer to the real buffer, stack-allocated or heap-allocated
+    const _Tp* data() const { return ptr; };
 
 protected:
     //! pointer to the real buffer, can point to buf if the buffer is small enough
